@@ -1,1 +1,1 @@
-package gosnap7
+package snap7go

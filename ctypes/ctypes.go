@@ -1,4 +1,4 @@
-package gosnap7
+package snap7go
 
 //#include "snap7.h"
 import "C"

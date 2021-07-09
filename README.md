@@ -1,1 +1,1 @@
-# goSnap7
+# snap7go

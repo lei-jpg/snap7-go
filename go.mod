@@ -1,3 +1,3 @@
-module goSnap7
+module snap7go
 
 go 1.15
