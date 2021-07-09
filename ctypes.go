@@ -10,3 +10,14 @@ type TS7CpuInfo struct {
 	Copyright      [27]int8
 	ModuleName     [25]int8
 }
+type Tm struct {
+	Sec   int32
+	Min   int32
+	Hour  int32
+	Mday  int32
+	Mon   int32
+	Year  int32
+	Wday  int32
+	Yday  int32
+	Isdst int32
+}

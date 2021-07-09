@@ -4,3 +4,4 @@ package snap7go
 import "C"
 
 type TS7CpuInfo C.TS7CpuInfo
+type Tm C.tm
