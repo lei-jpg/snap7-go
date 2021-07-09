@@ -8,7 +8,7 @@ import (
 	"unsafe"
 )
 
-type S7Object = C.ulong
+type S7Object = C.S7Object
 
 func Cli_GetCpuInfo(cli S7Object) (info TS7CpuInfo, err error) {
 	var code C.int = C.Cli_GetCpuInfo(cli, (*C.TS7CpuInfo)(unsafe.Pointer(&info)))
