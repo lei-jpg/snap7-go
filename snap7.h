@@ -553,7 +553,7 @@ int S7API Cli_WaitAsCompletion(S7Object Client, int Timeout);
 // const longword errSrvCannotChangeParam  = 0x00800000; // Cannot change because running
 
 // TCP Server Event codes
-const longword evcServerStarted       = 0x00000001;
+// const longword evcServerStarted       = 0x00000001;
 // const longword evcServerStopped       = 0x00000002;
 // const longword evcListenerCannotStart = 0x00000004;
 // const longword evcClientAdded         = 0x00000008;
